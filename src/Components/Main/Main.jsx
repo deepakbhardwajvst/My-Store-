@@ -5,11 +5,11 @@ import { Footer } from "../Footer/Footer";
 import { ProductBar } from "../ProductBar/ProductBar";
 
 export const Main = () => {
-    return (
-        <div>
-            <Slider />
-            <NavigationButtons />
-            <ProductBar />
-        </div>
-    );
+  return (
+    <div>
+      <Slider />
+      <NavigationButtons />
+      <ProductBar />
+    </div>
+  );
 };

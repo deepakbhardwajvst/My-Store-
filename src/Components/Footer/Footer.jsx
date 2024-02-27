@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 
-export const Footer = () => {
+export const Footer = ()=>{
     return (
         <div className="bg-black flex flex-row justify-around p-4 ">
             <img src={logo} ></img>

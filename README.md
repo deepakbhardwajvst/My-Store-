@@ -1,8 +1,17 @@
-# React + Vite
+This Project is built using React JS , Redux, Redux toolkit and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+\***\* **Homepage** \*\***
+![Home Page](src/assets/images/HomePage.png)
 
-Currently, two official plugins are available:
+\***\* **Filter Section and Products list** \*\***
+![Filter Section and Products list](src/assets/images/suitsWithFilterSection.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**\*\*** **Filter** **\*\***
+
+![Filter](src/assets/images/Filter.png)
+
+\***\* **Single Product Page** \*\***
+![Product Page](src/assets/images/productPage.png)
+
+\***\* **Cart** \*\***
+![Cart](src/assets/images/cart.png)
