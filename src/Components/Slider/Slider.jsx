@@ -25,7 +25,7 @@ export const Slider = () => {
             >
               <div>
                 {parseInt(item.id) === slideIndex && (
-                  <img className="w-full h-[300px] md:h-[700px] md:min-h-[700px]" src={item.img}></img>
+                  <img className="w-full h-[300px] md:h-[700px] md:min-h-[700px] object-cover" src={item.img}></img>
                 )}
               </div>
               <div className=" top-44 absolute mx-auto inset-x-1/4">
@@ -44,8 +44,8 @@ export const Slider = () => {
               <div
                 className={
                   index === slideIndex
-                    ? "bg-green-300 rounded-full p-3 sm:p-4 cursor-pointer"
-                    : "bg-white rounded-full p-3 sm:p-4 cursor-pointer hover:bg-gray-300 "
+                    ? "bg-green-300 rounded-full p-3 sm:p-2 cursor-pointer"
+                    : "bg-white rounded-full p-3 sm:p-2 cursor-pointer hover:bg-gray-300 "
                 }
                 onClick={() => dispatch(dotSlide(index))}
               ></div>

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 
-export const Footer = ()=>{
+export const Footer = () => {
     return (
         <div className="bg-black flex flex-row justify-around p-4 ">
-            <img src={logo} ></img>
+            <img src={logo} alt="logo" className=" object-cover"></img>
             <div className="text-white font-inter text-3md flex flex-col justify-center">
                 <Link to="/about" >About</Link>
                 <Link to="/contact-us">Contact-Us</Link>

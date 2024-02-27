@@ -38,8 +38,9 @@ export const Cart = ({ openModel, setOpen }) => {
                     <div className="grid grid-cols-2 p-4">
                       <div className=" justify-content-center ">
                         <img
-                          className="h-[125px] rounded-md"
+                          className="h-[125px] rounded-md object-cover"
                           src={product.img}
+                          alt={product.name}
                         ></img>
                         <div className="flex flex-col justify-center items-start">
                           <h4 className=" text-black text-xl font-inter font-bold tracking-normal leading-none py-4 ">
@@ -104,7 +105,7 @@ export const Cart = ({ openModel, setOpen }) => {
               <p className="text-center justify-self-center">click and hold on outside the white-box to close the pop-up</p>
             </DialogFooter>
           </Dialog>
-      </Fragment>
+        </Fragment>
       ) : (
         <Fragment>
           <Dialog

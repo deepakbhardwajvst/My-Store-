@@ -13,7 +13,7 @@ export const ProductBar = () => {
       </div>
       <div className="flex justify-center item-center py-4">
         <img
-          className="h-[100%] w-[70%] rounded-md shadow-lg shadow-gray-600"
+          className="h-[100%] w-[70%] rounded-md shadow-lg shadow-gray-600 object-cover"
           src={clothes}
           alt="clothes"
         />

@@ -14,9 +14,9 @@ export const SingleProduct = () => {
 
   const { id } = useParams();
   const dispatch = useDispatch();
-  useEffect (() => {
+  useEffect(() => {
     // scroll to top on page load
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }, []);
 
   return (
@@ -28,7 +28,7 @@ export const SingleProduct = () => {
             <div key={index} className="flex justify-center items-center py-10 mob:py-4 mob:flex-col">
               <div className=" flex justify-center grow-[4]">
                 <img
-                  className="h-[500px] rounded-lg "
+                  className="h-[500px] rounded-lg object-cover"
                   src={item.img}
                   alt={item.name}
                 ></img>
